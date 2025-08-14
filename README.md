@@ -158,12 +158,14 @@ Navigate to `.ipynb` and run all cells sequentially. The notebook will:
 
 ### 📊 Model Performance Visualization
 
-![Actual vs Predicted](visualizations/actual_vs_predicted.png)
+<img width="857" height="704" alt="image" src="https://github.com/user-attachments/assets/9f9c6b75-5d39-4ac8-8a67-e0834de511b3" />
+
 *Linear Regression model predictions vs. actual exam scores*
 
 ### 🌡️ Feature Correlations
 
-![Correlation Heatmap](visualizations/correlation_heatmap.png)
+<img width="901" height="938" alt="image" src="https://github.com/user-attachments/assets/c2ec030f-341b-4768-a548-ca44144aef59" />
+
 *Correlation matrix showing relationships between numerical features*
 
 ---
@@ -186,52 +188,6 @@ Navigate to `.ipynb` and run all cells sequentially. The notebook will:
 
 ---
 
-## 📝 How to Add Images to Your README
-
-To add your visualization images from VS Code notebooks to the README:
-
-### Method 1: Direct Upload to Repository
-1. **Save plots from your notebook:**
-   ```python
-   plt.savefig('visualizations/feature_importance.png', dpi=300, bbox_inches='tight')
-   plt.savefig('visualizations/actual_vs_predicted.png', dpi=300, bbox_inches='tight')
-   ```
-
-2. **Create the visualizations folder:**
-   ```bash
-   mkdir visualizations
-   ```
-
-3. **Move your saved images to the folder and reference them:**
-   ```markdown
-   ![Feature Importance](visualizations/feature_importance.png)
-   ![Model Performance](visualizations/actual_vs_predicted.png)
-   ```
-
-### Method 2: Using GitHub Issues (Alternative)
-1. Create a new issue in your repository
-2. Drag and drop your images into the issue description
-3. Copy the generated URLs and use them in your README
-4. You can close the issue afterward
-
-### Method 3: Using Image Hosting
-1. Upload images to services like Imgur, GitHub Pages, or your own hosting
-2. Reference the external URLs in your markdown
-
-**Recommended folder structure for images:**
-```
-visualizations/
-├── exam_score_distribution.png
-├── feature_importance.png
-├── actual_vs_predicted.png
-├── correlation_heatmap.png
-└── categorical_analysis/
-    ├── parental_involvement_boxplot.png
-    ├── teacher_quality_boxplot.png
-    └── motivation_level_boxplot.png
-```
-
----
 
 ## 🤝 Contributing
 
@@ -298,17 +254,12 @@ git push origin feature/AmazingFeature
 ## 📧 Contact & Support
 
 **Your Name**
-- 📫 **Email**: your.email@example.com
-- 🌐 **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- 🐙 **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
+- 📫 **Email**:  onedaysuccussfull@gmail.com
+- 🌐 **LinkedIn**: https://www.linkedin.com/in/nadeem-ahmad3/
+
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ⭐ **If this analysis helped you understand student performance factors, please star this repository!** ⭐
 
