@@ -152,7 +152,8 @@ Navigate to `.ipynb` and run all cells sequentially. The notebook will:
 
 ### 🔍 Feature Importance Rankings
 
-![Feature Importance](visualizations/feature_importance.png)
+<img width="1142" height="858" alt="image" src="https://github.com/user-attachments/assets/6e275721-3f6f-4037-827b-cb5fb6cd5968" />
+
 *Top factors influencing student exam performance*
 
 ### 📊 Model Performance Visualization
