@@ -49,22 +49,14 @@ This analysis revealed that a student's **engagement and environment are paramou
 
 ```bash
 .
-├── data/
 │   └── StudentPerformanceFactors.csv    # Main dataset
-├── notebooks/
-│   └── student_analysis.ipynb           # Main analysis notebook
+│   └── .ipynb           # Main analysis notebook
 ├── visualizations/
 │   ├── exam_score_distribution.png      # Target variable analysis
 │   ├── feature_importance.png           # Top influential features
 │   ├── actual_vs_predicted.png          # Model performance plot
 │   ├── correlation_heatmap.png          # Feature correlation matrix
 │   └── categorical_analysis/            # Boxplots for categorical features
-├── models/
-│   ├── linear_model_pipeline.pkl        # Trained Linear Regression model
-│   └── polynomial_model_pipeline.pkl    # Trained Polynomial model
-├── src/
-│   └── data_preprocessing.py            # Data cleaning utilities
-├── requirements.txt                     # Project dependencies
 └── README.md
 ```
 
@@ -85,8 +77,8 @@ This analysis revealed that a student's **engagement and environment are paramou
 
 **1. Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/student-performance-analysis.git
-cd student-performance-analysis
+git clone https://github.com/NadeemAhmad3/Student_Score_Prediction.git
+cd Student_Score_Prediction
 ```
 
 **2. Create Virtual Environment (Recommended)**
@@ -99,17 +91,14 @@ source venv/bin/activate
 ```
 
 **3. Install Dependencies**
-```bash
-pip install -r requirements.txt
-```
 
-Or install manually:
+ install manually:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 ```
 
 **4. Dataset Setup**
-Ensure your dataset `StudentPerformanceFactors.csv` is placed in the `data/` directory. The dataset should contain the following features:
+Ensure your dataset `StudentPerformanceFactors.csv` is placed in the same directory. The dataset should contain the following features:
 - Attendance (numerical)
 - Hours_Studied (numerical)
 - Previous_Scores (numerical)
@@ -130,7 +119,7 @@ jupyter notebook
 ```
 
 **2. Open and Execute**
-Navigate to `notebooks/student_analysis.ipynb` and run all cells sequentially. The notebook will:
+Navigate to `.ipynb` and run all cells sequentially. The notebook will:
 - Load and diagnose the dataset
 - Perform comprehensive data cleaning and imputation
 - Generate detailed exploratory data analysis
@@ -138,8 +127,7 @@ Navigate to `notebooks/student_analysis.ipynb` and run all cells sequentially. T
 - Evaluate model performance with multiple metrics
 - Create feature importance visualizations
 
-**3. View Results**
-All visualizations will be saved automatically to the `visualizations/` folder, and trained models to the `models/` directory.
+
 
 ---
 
