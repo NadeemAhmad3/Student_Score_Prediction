@@ -51,12 +51,6 @@ This analysis revealed that a student's **engagement and environment are paramou
 .
 │   └── StudentPerformanceFactors.csv    # Main dataset
 │   └── .ipynb           # Main analysis notebook
-├── visualizations/
-│   ├── exam_score_distribution.png      # Target variable analysis
-│   ├── feature_importance.png           # Top influential features
-│   ├── actual_vs_predicted.png          # Model performance plot
-│   ├── correlation_heatmap.png          # Feature correlation matrix
-│   └── categorical_analysis/            # Boxplots for categorical features
 └── README.md
 ```
 
